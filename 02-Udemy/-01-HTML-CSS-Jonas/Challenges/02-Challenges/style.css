@@ -1,0 +1,46 @@
+body {
+  border: 5px black solid;
+  font-family: sans-serif;
+}
+
+header:first-child {
+  text-align: center;
+  font-weight: bold;
+  font-size: x-large;
+  background-color: aliceblue;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.boot-image {
+  height: 300px;
+}
+
+.salary {
+  font-size:x-large;
+  font-weight: bold;
+}
+
+.p2 {
+  color: gray;
+  font-size: small;
+}
+
+a:link {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+button {
+  background-color: black;
+  color: white;
+  font-size: medium;
+}
+
+button:hover {
+  background: white;
+  color: black;
+}
