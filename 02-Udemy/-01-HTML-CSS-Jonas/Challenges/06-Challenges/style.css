@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  margin: 30px auto ;
+  border: 5px black solid;
+  width: 879px;
+}
+
+header:first-child {
+  text-align: center;
+  font-weight: bold;
+  font-size: x-large;
+  background-color: #a6d5eb;
+  padding: 15px 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  position: relative;
+}
+
+header:first-child::before {
+  content: "SALE";
+  font-size: large;
+  text-align: center;
+  padding: 10px 20px;
+  display: inline-block;
+  position: absolute;
+  top: -20px;
+  left: -5%;
+  background-color: rgb(207, 46, 46);
+  color: white;
+  font-family: monospace;
+}
+
+article {
+  display: flex;
+}
+
+.bootimage {
+  display: inline;
+  /* float: left; */
+}
+
+.culm2 {
+  width: 270px;
+  /* float: left; */
+  margin:  10px 0 10px 20px ;
+}
+
+.culm3 {
+  width: 270px;
+  /* float: right; */
+  margin:  10px 0 0 20px ;
+}
+
+.slary-discribtion {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.salary {
+  font-size:x-large;
+  font-weight: bold;
+  /* float: left; */
+}
+
+.p2 {
+  color: gray;
+  font-size: small;
+  /* float: right; */
+  align-self: center;
+}
+
+.p3 {
+  margin-bottom: 10px;
+  clear: both;
+}
+
+a:link {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.color-button-contaner {
+  display: flex;
+}
+
+.color-button {
+  margin: 30px 5px;
+  display: flex;
+  width: 30px;
+  height: 30px;
+  border: 0px;
+  cursor: pointer;
+}
+
+.color-button:hover {
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+}
+
+.color-button:active {
+  border: 2px black solid;
+}
+
+.color-button:first-child {
+  background-color: black;
+}
+.color-button:nth-child(2) {
+  background-color:lightblue;
+}
+
+.color-button:nth-child(3) {
+  background-color:palevioletred;
+}
+
+.color-button:nth-child(4) {
+  background-color:yellow;
+}
+
+.color-button:nth-child(5) {
+  background-color:lightgreen;
+}
+
+.color-button:nth-child(6) {
+  background-color: peru;
+}
+
+
+.p4 {
+  font-weight: bold;
+  /* margin-top: 30px; */
+}
+
+ul {
+  list-style-type: square;
+}
+
+ul li {
+  margin: 20px;
+  margin-left: -20px;
+
+}
+
+.last-button {
+  background-color: black;
+  color: white;
+  font-size: medium;
+  width: 100%;
+  height: 8vh;
+  text-align: center;
+  cursor: pointer;
+  /* border: 0px; */
+}
+
+.last-button:hover {
+  background: white;
+  color: black;
+}
+
+.last-button:active {
+  background-color: black;
+  color: white;
+}
