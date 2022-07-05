@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hero Section</title>
+  <style>
+    *{
+      box-sizing: border-box;
+      color: white;
+      font-family: sans-serif;
+      user-select: none;
+    }
+    body {
+      background-image: linear-gradient(rgb(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(hans-vivek-D3l1y9tPVso-unsplash.jpg);
+      background-size:cover;
+    }
+    nav {
+      display: grid;
+      grid-template-columns: repeat(5,1fr);
+      grid-column: 1 / -1;
+      justify-items: center;
+      padding: 20px;
+    }
+    .nav-items {
+      font-size: x-large;
+      font-weight: bold;
+    }
+    .nacigation {
+      grid-column: 5/-1;
+      justify-self:start;
+    }
+    .container {
+      width: 1055px;
+      padding: 150px 200px;
+    }
+    .text-header {
+      font-size: 64px;
+      line-height: 1;
+      margin-bottom: 30px;
+    }
+    .container p {
+      font-size: 24px;
+      margin-bottom: 50px;
+    }
+    .container button {
+      width: 250px;
+      font-size: 24px;
+      font-weight: bold;
+      padding: 20px 25px;
+      border-radius: 10px;
+      background-color: #f59f00;
+      border: 0;
+      cursor: pointer;
+    }
+    .container button:active {
+      background-color: #fab005;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <sub class="nav-items logo">LOGO</sub>
+    <sub class="nav-items nacigation">NAVIGATION</sub>
+  </nav>
+  <div class="container">
+    <header class="text-header">A healthy meal delivered to your door, every single day</header>
+    <p>The smart 365-days-per-year food subscription that will make you eat healthy again. Tailored to your personal tastes and nutrition needs.</p>
+    <button >Start eating well</button>
+  </div>
+</body>
+</html>

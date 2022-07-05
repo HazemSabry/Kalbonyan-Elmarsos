@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0;
+      box-sizing: border-box;
+      font-family: sans-serif;
+      user-select: none;
+    }
+    nav {
+      display: flex;
+      align-content: center;
+      justify-content: space-between;
+      padding: 20px 40px;
+      background-color: #7048e8;
+    }
+    .nav-text {
+      color: white;
+      font-size: 18px;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+    .trash {
+      background-color: #c92a2a;
+    }
+    .nav-side-element {
+      display: flex;
+      align-content: center;
+      justify-content: space-between;
+      width: 500px;
+    }
+    .nav-side-text {
+      background-color: #5f3dc4;
+      border: none;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      height:100vh;
+    }
+    .side-par {
+      grid-column: 1/2;
+    }
+    .email-view {
+      grid-column: 2/4;
+    }
+    .additional-info {
+      grid-column: 4/-1;
+    }
+    .side-par {
+      background-color: #f3f0ff;
+      overflow: scroll;
+    }
+    .side-par p {
+      font-size:x-large ;
+      padding: 40px;
+      text-align: center;
+      background-color: #adb5bd;
+      margin: 50px;
+    }
+    .email-view,.additional-info {
+      display: grid;
+    }
+    .additional-info {
+      display: grid;
+      background-color: #f3f0ff;
+    }
+    .email-view-text,.addition-info-text {
+      justify-self: center;
+      font-size: x-large;
+      font-weight: bold;
+      margin-top: 40px;
+    }    
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="nav-side-element">
+      <button class="nav-text nav-side-text New">New</button>
+      <button class="nav-text nav-side-text Reply">Reply</button>
+      <button class="nav-text nav-side-text Forward">Forward</button>
+      <button class="nav-text nav-side-text Mark-unread">Mark unread</button>
+    </div>
+    <sub class="nav-text trash">Trash</sub>
+  </nav>
+  <div class="container">
+    <div class="side-par">
+      <p> Email 1 </p>
+      <p> Email 2 </p>
+      <p> Email 3 </p>
+      <p> Email 4 </p>
+      <p> Email 5 </p>
+      <p> Email 6 </p>
+      <p> Email 7 </p>
+      <p> Email 8 </p>
+      <p> Email 9 </p>
+      <p> Email 10 </p>
+    </div>
+    <div class="email-view">
+      <sub class="email-view-text">Email view</sub>
+    </div>
+    <div class="additional-info">
+      <sub class="addition-info-text">Addition info</sub>
+    </div>
+  </div>
+</body>
+</html>
